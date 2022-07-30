@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+
+}
+.head{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.head h2{
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3em;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-rt {
+    margin-left: 5em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+}
+.nav-rt img{
+    margin-left: 20px;
+    height: 30px;
+}
+.nav-rt p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-line{
+    height: 2px;
+    margin-left: 40px;
+    width: 58em;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.main{
+    margin: 10em 0em 0em 4em;
+}
+.main h1{
+    font-size: 50px;
+    width: 500px;
+    font-weight: 500;
+}
+.main button{
+    margin-top: 70px;
+    color: #fff;
+    padding: 15px 40px;
+    background:transparent;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+}
+.float{
+    width: 255px;
+background-color: rgba(255, 255, 255, 0.144);
+padding: 25px;
+}
+.float img{
+    height: 50px;
+}
+.float h5{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.puzzle{
+    position: absolute;
+    right: 6em;
+    top: 10em;
+}
+.puzzle>.line{
+    margin-left: 13em;
+background-color: #fff;
+height: 70px;
+width: 1.4px;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50px;
+}
+.puzzle>.dot{
+    margin-left: 12.45em;
+}
+.light{
+    position: absolute;
+    bottom: 7.5em;
+    right: 25em;
+}
+.light>.line{
+    position: absolute;
+    background-color: #fff;
+width: 70px;
+height: 1.4px;
+top: 70px;
+right: -70px;
+}
+.light>.dot{
+    position:absolute;
+    top: 61px;
+right: -90px;
+}
